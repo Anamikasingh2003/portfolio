@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anamika Singh Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #4a4a4a;
+            line-height: 1.6;
+            background: linear-gradient(to right, #fef9f4, #f4e7de);
+        }
+
+        a {
+            text-decoration: none;
+            color: #8b572a;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(to bottom, #f9d5a7, #f2b591);
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin-top: 15px;
+            border: 5px solid #fff;
+        }
+
+        /* Navigation */
+        nav {
+            background: #f2b591;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #fef4e9;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            background: #fff;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            color: #d3a58f;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        /* Skills Section */
+        .skills {
+            background: #fef4e9;
+            padding: 50px 20px;
+        }
+
+        .skills h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #8b572a;
+        }
+
+        .skills .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        .skills .skill-list li {
+            background: linear-gradient(to right, #f4d3c0, #f5bba3);
+            color: #4a4a4a;
+            padding: 15px 25px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px #fff;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 50px 20px;
+        }
+
+        .projects h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #d3a58f;
+        }
+
+        .projects .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .projects .project {
+            border: 2px solid #ddd;
+            border-radius: 15px;
+            overflow: hidden;
+            background: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .projects .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects .project img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .projects .project h3 {
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #b5835a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Anamika Singh</h1>
+        <img src="pro.jpg" alt="Anamika Singh">
+        <p>Frontend Developer | Creative Thinker | Lifelong Learner</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I’m Anamika Singh, a Front-End Developer who loves turning designs into seamless digital experiences. With a strong foundation in HTML, CSS, and JavaScript, I create websites that are not only functional but also visually captivating. Constantly learning and evolving, I aim to combine creativity with technical skills to deliver responsive and user-friendly web solutions.
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C++</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="CV INSPIRATION.jpeg" alt="Project 1">
+                    <h3>Project 1: Portfolio Website</h3>
+                </div>
+                <div class="project">
+                    <img src="Watch Website Design.jpeg" alt="Project 2">
+                    <h3>Project 2: E-commerce Clone</h3>
+                </div>
+                <div class="project">
+                    <img src="GutenVerse - Magazine and Blog Theme.jpeg" alt="Project 3">
+                    <h3>Project 3: Blog Website</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>By Anamika Singh </p>
+    </footer>
+</body>
+</html>
